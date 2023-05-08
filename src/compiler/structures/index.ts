@@ -1,0 +1,13 @@
+export type StructureType = 'component' | 'computed' | 'data'
+  | 'emit' | 'hook' | 'prop' | 'method' | 'mixin' | 'ref' | 'watch'
+
+export * from './component'
+export * from './computed'
+export * from './data'
+export * from './emit'
+export * from './hook'
+export * from './prop'
+export * from './method'
+export * from './mixin'
+export * from './ref'
+export * from './watch'
