@@ -291,6 +291,12 @@ Not anymore:
 
 ![Prop Mutation Error](media/prop-mutation-error.png)
 
+### Plugins are not binded correctly to `this`
+
+![Prop Mutation Error](media/plugins-not-binded.png)
+
+It seems that creating a typescript declaration file (`*.d.ts`) does not fix the issue.
+
 ## Examples
 
 You can find examples on the `/vue` folder, which contains vue SFCs prefixed with `.options.vue` and `class-decorators.vue` for components using the Options API syntax and the class-based syntax respectively.
