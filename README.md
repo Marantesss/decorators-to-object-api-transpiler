@@ -295,7 +295,11 @@ Not anymore:
 
 ![Prop Mutation Error](media/plugins-not-binded.png)
 
+This seems to be a problem of using `defineComponent`, as plugin development for Vue 2.7 and Vue 3 is quite different.
+
 It seems that creating a typescript declaration file (`*.d.ts`) does not fix the issue.
+
+A solution/workaround is yet to be discovered.
 
 ## Examples
 
